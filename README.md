@@ -1,12 +1,14 @@
 # progress-bar
 
 React progress-bar for scrolling height: ideal for articles, long reads...
-Build with typescript
+Build with typescript.
+
+Progress is only visible when the page extends the 100vh;
 
 ## Install
 
 ```bash
-npm install --save progress-bar
+npm i react_pageread_progress_bar
 ```
 
 ## Props
@@ -22,7 +24,7 @@ containerColor={`STRING COLOR`} //Color of container
 
 ```tsx
 
-import {ProgressBar} from 'progress-bar'
+import {ProgressBar} from 'react_pageread_progress_bar';
 
 
 const App = () => {
