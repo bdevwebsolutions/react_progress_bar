@@ -10,9 +10,9 @@ npm install --save progress-bar
 
 ## Props
 
--position: css-position rule
--containerColor: backgroundcolor of container
--barColor: backgroundcolor of progressbar
+Markup :  - position:       css-position rule
+          - containerColor: backgroundcolor of container
+          - barColor:       backgroundcolor of progressbar
 
 ## Usage
 
