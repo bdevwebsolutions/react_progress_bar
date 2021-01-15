@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'progress-bar'
-import 'progress-bar/dist/index.css'
+import { ProgressBar } from 'progress-bar'
+
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ProgressBar position="fixed" barColor={"lightgrey"} containerColor={"#FFFFFF"}/>
 }
 
 export default App
