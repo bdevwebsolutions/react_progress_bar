@@ -1,6 +1,7 @@
 # progress-bar
 
 React progress-bar for scrolling height: ideal for articles, long reads...
+Build with typescript
 
 ## Install
 
@@ -10,9 +11,12 @@ npm install --save progress-bar
 
 ## Props
 
-Markup :  - position:       css-position rule
-          - containerColor: backgroundcolor of container
-          - barColor:       backgroundcolor of progressbar
+```javascript
+
+position={`CSS POSITION MARKUP`} //Position of progressbar
+barColor={`STRING COLOR`} //Color of progressbar 
+containerColor={`STRING COLOR`} //Color of container
+```
 
 ## Usage
 
@@ -22,7 +26,7 @@ import {ProgressBar} from 'progress-bar'
 
 
 const App = () => {
-  return <ProgressBar position={"fixed"}barColor={"lightgrey"} containerColor={"#FFFFFF"}/>
+  return <ProgressBar position={"fixed"} barColor={"lightgrey"} containerColor={"#FFFFFF"}/>
 }
 ```
 
