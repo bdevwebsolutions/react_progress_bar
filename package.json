@@ -1,10 +1,10 @@
 {
   "name": "react_pageread_progress_bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React pageread progress bar build with typescript, ideal for articles or long pages",
   "author": "bdevwebsolutions",
   "license": "MIT",
-  "repository": "bdevwebsolutions/react-pageread-progress-bar",
+  "repository": "bdevwebsolutions/react_progress_bar",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

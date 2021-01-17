@@ -3,7 +3,17 @@ import * as React from 'react'
 interface Props {
   containerColor: string,
   barColor: string,
-  position: "fixed" | "-moz-initial" | "inherit" | "initial" | "revert" | "unset" | "-webkit-sticky" | "absolute" | "relative" | "static" | "sticky" | undefined,
+  position: "fixed" | 
+  "-moz-initial" | 
+  "inherit" | 
+  "initial" | 
+  "revert" | "unset" | 
+  "-webkit-sticky" | 
+  "absolute" | 
+  "relative" | 
+  "static" | 
+  "sticky" | 
+  undefined,
 }
 
 
@@ -21,7 +31,6 @@ export const ProgressBar: React.FC<Props> = ({containerColor, barColor,position}
     })
   }
 
-
   React.useEffect(() => {
     scrollHandler()
   }, [])
@@ -30,7 +39,8 @@ export const ProgressBar: React.FC<Props> = ({containerColor, barColor,position}
     position: position, 
     width: "100%",
     height: "10px", 
-    backgroundColor: `${containerColor}`
+    backgroundColor: `${containerColor}`,
+    top: "0px",
   }
 
   const barStyle: React.CSSProperties = {
